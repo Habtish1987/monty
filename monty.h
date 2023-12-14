@@ -7,6 +7,7 @@
 #include <fcntl.h>
 #include <string.h>
 #include <ctype.h>
+extern int getline(char **lineptr, size_t *n, FILE *stream);
 /**
  * struct stack_s - A function that doubly linked list
  * representation of a stack (or queue)
